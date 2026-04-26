@@ -1,0 +1,126 @@
+* {
+    font-family: 'Verdana', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    font-family:'Courier New', Courier, monospace;
+    margin: 60px 0 20px 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+nav {
+    background-color: #31323e;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+nav a:hover, nav a:active {
+    background-color: #777a91;
+}
+
+p {
+    padding: 4px 0;
+}
+
+.recipe-summary {
+    max-width: 800px;
+    font-size: 18px;
+    margin: 40px auto;
+}
+
+.recipe-link {
+    display: inline-block;
+}
+
+.recipe-summary a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+
+.appetizer {
+    background-color: #fab7b9;
+    color: black;
+}
+
+.recipe-link .appetizer:hover {
+    background-color: rgb(250, 183, 185,0.8);
+    color: black;
+}
+
+.main-dish {
+    background-color: #b3a3f9;
+    color: white;
+}
+
+.recipe-link .main-dish:hover {
+    background-color: rgb(179, 163, 249,0.8);
+    color: white;
+}
+
+.dessert {
+    background-color: #e7b12b;
+    color: white;
+}
+
+.recipe-link .dessert:hover {
+    background-color: rgb(231, 177, 43, 0.8);
+    color: white;
+}
+
+.recipe {
+    max-width: 800px;
+    padding: 60px;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+.recipe li {
+    margin-left: 20px;
+    padding: 4px;
+}
+
+.recipe img {
+    width: 100%;
+}
+
+.legend {
+    width: 300px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    border: 3px #31323e solid;
+}
+
+.legend p {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+

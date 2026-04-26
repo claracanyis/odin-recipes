@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
      <header>
@@ -13,12 +14,31 @@
             </ul>
         </nav>
     </header>
-    <h1>Odin Recipes</h1>
-    <p>These are the <strong>must have</strong> recipes in your kitchen book:</p>
-    <ul>
-        <li><a href="recipes/chicken-croquetes.html">Chicken Croquetes</a></li>
-        <li><a href="recipes/fideua.html">Fideuà</a></li>
-        <li><a href="recipes/crema-catalana.html">Crema Catalana</a></li>
-    </ul>
+    <main class="recipe-summary">
+        <h1>Odin Recipes</h1>
+        <p>These are the <strong>must have</strong> recipes in your kitchen book:</p>
+        <ul>
+            <li class="recipe-link"><a href="recipes/chicken-croquetes.html" class="appetizer">Chicken Croquetes</a></li>
+            <li class="recipe-link"><a href="recipes/fideua.html" class="main-dish">Fideuà</a></li>
+            <li class="recipe-link"><a href="recipes/crema-catalana.html" class="dessert">Crema Catalana</a></li>
+        </ul>
+        <div class="legend">
+            <ul>
+                <li>
+                    <div class="appetizer square" with="15px" height="15px"></div>
+                    <p>Appetizer</p>
+                </li>
+                <li>
+                    <div class="main-dish square" with="15px" height="15px"></div>
+                    <p>Main dish</p>
+                </li>
+                <li>
+                    <div class="dessert square" with="15px" height="15px"></div>
+                    <p>Dessert</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    
 </body>
 </html>

@@ -2,6 +2,8 @@
 ## See the website
 https://claracanyis.github.io/odin-recipes/
 
+The images have been created with IA (Gemini).
+
 ## What I learned
 ### HTML
 * Basic Boilerplate
